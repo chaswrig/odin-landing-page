@@ -1,0 +1,8 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div {
+    border: 1px red solid;
+    flex-direction: column;
+}
