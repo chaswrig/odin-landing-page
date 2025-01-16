@@ -4,5 +4,34 @@
 
 div {
     border: 1px red solid;
-    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.header {
+    border-color: blue;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.action {
+    background-color: #3882f6;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button {
+    background-color: #3882f6;
 }
