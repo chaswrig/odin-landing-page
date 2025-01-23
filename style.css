@@ -1,29 +1,133 @@
 * {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Roboto";
 }
 
-div {
-    border: 1px red solid;
-    text-align: center;
-    align-items: center;
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .header {
-    border-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.upper-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    background-color: #1f2937;
+    padding: 15px;
+    gap: 5px;
+}
+
+.upper-right {
+    flex: 1;
+    max-width: 50%;
+    background-color: #1f2937;
+    border: red solid ;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    background-color: #1f2937;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+}
+
+.middle-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subtext{
+    display: flex;
+    gap: 50px;
+    padding: 15px;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100px;
+}
+
+.box {
+    display: flex;
+    border: #1f2937 solid;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
     background-color: #e5e7eb;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
 }
 
 .testimonial {
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1f2937;
+}
+
+.attribution {
+    display: flex;
+    align-self: flex-end;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #3882f6;
 }
 
 .action {
     background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.call {
+    font-size: larger;
+    color: #f9faf8;
 }
 
 .header, .footer {
@@ -34,4 +138,16 @@ div {
 
 .button {
     background-color: #3882f6;
+    color: #f9faf8;
+    max-width: 100px;
+    min-width: 100px;
+    text-align: center;
+    padding: 1px;
+    border-radius: 15px;
+    border: white solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
